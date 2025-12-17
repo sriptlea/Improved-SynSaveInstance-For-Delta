@@ -2331,9 +2331,9 @@ local function synsaveinstance(CustomOptions, CustomOptions2)
 				end
 
 				if StatusText then
-        StatusText.Text = "Waiting 5 seconds before decompiling " .. script.Name
+        StatusText.Text = "Waiting 2 seconds before decompiling (Safe Mode)" .. script.Name
         end
-        task.wait(5)
+        task.wait(2)
         local ok, result = run_with_loading("Decompiling " .. script.Name, true, nil, decomp, script)
 				if not result then
 					ok, result = false, "Empty Output"
