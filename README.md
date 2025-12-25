@@ -1,8 +1,8 @@
 How to use,
 
 local Params = {
-	RepoURL = "https://raw.githubusercontent.com/luau/SynSaveInstance/main/",
-	SSI = "saveinstance",
+	RepoURL = "https://raw.githubusercontent.com/sriptlea/Improved-SynSaveInstance-For-Delta/refs/heads/main/",
+	SSI = "ussi",
 }
 
 local synsaveinstance = loadstring(game:HttpGet(Params.RepoURL .. Params.SSI .. ".luau", true), Params.SSI)()
